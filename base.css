@@ -1,0 +1,38 @@
+body{
+    font-family: helvetica;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    background:url(background.jpg)
+}
+
+h1{
+    text-align: center;
+    background:#4cd964;
+    margin: 0 0 30px 0;
+    padding: 10px;
+    color:#ffffff;
+}
+input{
+    display:block;
+    margin: 10px 0;
+    height: 30px;
+    color:#666;
+}
+
+.contenidos{
+    padding: 30px;
+    background:rgba(0,0,0,.7);
+    border: solid 1px silver;
+    width: 300px;
+    margin:auto;
+    border-radius: 10px;
+    color:#fff;
+}
+label{
+    font-size: 25px
+}
+button{
+    padding: 8px;
+    width:265px;
+}
