@@ -11,7 +11,7 @@ let cambiarDolares=()=> {
         alert('Su calculo no es posible. Intente nuevamente.')
     }
         else{
-        document.getElementById('resultadop').textContent="$"+ ingresoPesos + " pesos argentinos son: US$" +  Math.round(resultado) + ". El impuesto país es de $" + Math.round(impuestoPais) + " y el impuesto a las ganancias es de $" + Math.round(impuestoGanancias) + ". El total a pagar es  $" + valorFinal.toFixed(1)
+        document.getElementById('resultadop').textContent="$"+ ingresoPesos + " pesos argentinos son: US$" +  Math.round(resultado) + ". El impuesto país es de $" + Math.round(impuestoPais) + " y el impuesto a las ganancias es de $" + Math.round(impuestoGanancias) + ". El total a pagar por " + Math.round(resultado) + " USD"+ " es de $" + valorFinal.toFixed(1) + " pesos argentinos."
         //alert("$"+ ingresoPesos + " pesos argentinos son: US$" +  Math.round(resultado) + ". El impuesto país es de $" + Math.round(impuestoPais) + " y el impuesto a las ganancias es de $" + Math.round(impuestoGanancias) + ". El total a pagar es  $" + valorFinal.toFixed(1))
     }
 }
